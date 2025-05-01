@@ -39,8 +39,8 @@ A full-stack e-commerce platform built with React, TypeScript, Node.js, Express,
 
 1. Clone the repository
 ```
-git clone <repository-url>
-cd echo-commerce
+git clone https://github.com/Shrey9810/EchoShop-Fullstack-E-Commerce-Platform.git
+cd EchoShop-Fullstack-E-Commerce-Platform
 ```
 
 2. Install frontend dependencies
@@ -54,9 +54,8 @@ cd server
 npm install
 ```
 
-4. Create a .env file in the server directory with the following variables:
+4. Update .env file in the server directory with the following variables:
 ```
-PORT=5000
 MONGODB_URI=<your-mongodb-uri>
 JWT_SECRET=<your-jwt-secret>
 NODE_ENV=development
@@ -108,7 +107,3 @@ echo-commerce/
 - Frontend: Deploy to Vercel, Netlify, or any static site host
 - Backend: Deploy to Heroku, Render, or any Node.js hosting service
 - Database: Use MongoDB Atlas for production database
-
-## License
-
-This project is licensed under the MIT License.
